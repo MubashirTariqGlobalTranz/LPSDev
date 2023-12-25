@@ -25,7 +25,7 @@ public class LPSCustomer_Carrier_CarrierImportTest extends BaseClass {
 
 	@Test(priority = 1, groups = ("Regression"), retryAnalyzer = listeners.MyRetry.class)
 	public void CustomerCarriers_CarrierImport_tests() {
-//This will run all the methods
+//This will run all the methods & Test
 
 		CustomerCarrier.CarrierGTZ();
 		CustomerCarrier.CarrierImport();
