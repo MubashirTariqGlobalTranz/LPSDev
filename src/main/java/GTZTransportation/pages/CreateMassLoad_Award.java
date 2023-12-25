@@ -11,7 +11,7 @@ public class CreateMassLoad_Award extends BaseClass {
 
 	// public static WebDriver driver;
 
-	@FindBy(xpath = "/html/body/form/div[3]/div[3]/div/table/tbody/tr/td[2]/div[1]/div[3]/ul/li[6]/a")
+	@FindBy(xpath = "//*[text()='Spot Quote system']")
 	WebElement SpotQuote;
 
 	@FindBy(xpath = "/html/body/form/div[3]/div[2]/div[1]/ul/li[1]/a/span")
@@ -87,7 +87,8 @@ public class CreateMassLoad_Award extends BaseClass {
 			e.printStackTrace();
 		}
 
-		LoadCount.sendKeys("5");
+		LoadCount.clear();
+		LoadCount.sendKeys("2");
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {

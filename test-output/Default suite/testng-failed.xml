@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="GTZTransportation.gtz.CreateBOL_FindRatesTest">
+      <class name="GTZTransportation.gtz.LPSCustomer_Carrier_CarrierImportTest">
         <methods>
-          <include name="FindRatesTest"/>
-          <include name="tearDown"/>
+          <include name="CustomerCarriers_CarrierImport_tests"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- GTZTransportation.gtz.CreateBOL_FindRatesTest -->
+      </class> <!-- GTZTransportation.gtz.LPSCustomer_Carrier_CarrierImportTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

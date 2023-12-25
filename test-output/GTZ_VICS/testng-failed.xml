@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [GTZ_VICS]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="VICS(failed)">
+    <classes>
+      <class name="GTZTransportation.gtz.VICS_VerifyCustomerTest">
+        <methods>
+          <include name="VICS_CustomersList_Tests"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- GTZTransportation.gtz.VICS_VerifyCustomerTest -->
+    </classes>
+  </test> <!-- VICS(failed) -->
+</suite> <!-- Failed suite [GTZ_VICS] -->
