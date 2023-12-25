@@ -88,7 +88,7 @@ public class LPSCustomer_Carrier_ProspectQueue extends BaseClass {
 
 	}
 
-	// This will open users
+	// This will Edit Queues
 	public void EditQueue() {
 
 		try {
