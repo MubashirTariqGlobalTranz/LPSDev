@@ -15,28 +15,17 @@
       </class> <!-- GTZTransportation.gtz.CreateQuickLoad_AwardTest -->
     </classes>
   </test> <!-- QuickLoad(failed) -->
-  <test thread-count="1" name="Cancel Load- Spot Quote(failed)">
+  <test thread-count="1" name="Load Boards Search(failed)">
     <classes>
-      <class name="GTZTransportation.gtz.CancelLoad_SpotQuoteTest">
+      <class name="GTZTransportation.gtz.LoadBoard_Search_SpotQuoteTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="spotQuote_LoadBoard_Tests"/>
           <include name="setup"/>
-          <include name="spotQuote_CancelLoad_Tests"/>
-        </methods>
-      </class> <!-- GTZTransportation.gtz.CancelLoad_SpotQuoteTest -->
-    </classes>
-  </test> <!-- Cancel Load- Spot Quote(failed) -->
-  <test thread-count="1" name="Copy Load- Spot Quote(failed)">
-    <classes>
-      <class name="GTZTransportation.gtz.CopyLoad_SpotQuoteTest">
-        <methods>
-          <include name="setup"/>
-          <include name="spotQuote_CopyLoad_Tests"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- GTZTransportation.gtz.CopyLoad_SpotQuoteTest -->
+      </class> <!-- GTZTransportation.gtz.LoadBoard_Search_SpotQuoteTest -->
     </classes>
-  </test> <!-- Copy Load- Spot Quote(failed) -->
+  </test> <!-- Load Boards Search(failed) -->
   <test thread-count="1" name="CutomerRouted-FindRates(failed)">
     <classes>
       <class name="GTZTransportation.gtz.CreateBOL_FindRates_CustomerRouted_Test">
@@ -81,15 +70,4 @@
       </class> <!-- GTZTransportation.gtz.VICS_VeiwOrdersTest -->
     </classes>
   </test> <!-- VICS View Order(failed) -->
-  <test thread-count="1" name="CustomerCarrier-Prospect Queue(failed)">
-    <classes>
-      <class name="GTZTransportation.gtz.LPSCustomer_Carrier_ProspectQueueTest">
-        <methods>
-          <include name="setup"/>
-          <include name="CustomerCarriers_CustomerList_tests"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- GTZTransportation.gtz.LPSCustomer_Carrier_ProspectQueueTest -->
-    </classes>
-  </test> <!-- CustomerCarrier-Prospect Queue(failed) -->
 </suite> <!-- Failed suite [GTZ_RegressionSuite] -->

@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="GTZTransportation.gtz.LPSCustomer_Carrier_CarrierImportTest">
+      <class name="GTZTransportation.gtz.LPS_MyShipmentsTest">
         <methods>
-          <include name="CustomerCarriers_CarrierImport_tests"/>
           <include name="setup"/>
+          <include name="LPS_MyshipmentsTest"/>
         </methods>
-      </class> <!-- GTZTransportation.gtz.LPSCustomer_Carrier_CarrierImportTest -->
+      </class> <!-- GTZTransportation.gtz.LPS_MyShipmentsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
