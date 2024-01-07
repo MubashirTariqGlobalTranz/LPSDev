@@ -300,4 +300,11 @@
 
 		</classes>
 	</test>
+	<test name="LPS_Key Revenue Reports">
+		<classes>
+			<class
+				name="GTZTransportation.gtz.KeyRevenue_ReportsTest" />
+
+		</classes>
+	</test>
 </suite>

@@ -15,28 +15,6 @@
       </class> <!-- GTZTransportation.gtz.CreateQuickLoad_AwardTest -->
     </classes>
   </test> <!-- QuickLoad(failed) -->
-  <test thread-count="1" name="Load Boards Search(failed)">
-    <classes>
-      <class name="GTZTransportation.gtz.LoadBoard_Search_SpotQuoteTest">
-        <methods>
-          <include name="spotQuote_LoadBoard_Tests"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- GTZTransportation.gtz.LoadBoard_Search_SpotQuoteTest -->
-    </classes>
-  </test> <!-- Load Boards Search(failed) -->
-  <test thread-count="1" name="CutomerRouted-FindRates(failed)">
-    <classes>
-      <class name="GTZTransportation.gtz.CreateBOL_FindRates_CustomerRouted_Test">
-        <methods>
-          <include name="FindRates_BOL_Creation_CustomerRouted_Tests"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- GTZTransportation.gtz.CreateBOL_FindRates_CustomerRouted_Test -->
-    </classes>
-  </test> <!-- CutomerRouted-FindRates(failed) -->
   <test thread-count="1" name="VICS(failed)">
     <classes>
       <class name="GTZTransportation.gtz.VICS_VerifyCustomerTest">

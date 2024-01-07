@@ -178,7 +178,7 @@ public class CreateBOL_FindRates_CustomerRouted extends BaseClass {
 
 		FindRatesButton.click();
 		try {
-			Thread.sleep(9000);
+			Thread.sleep(16000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
