@@ -48,4 +48,15 @@
       </class> <!-- GTZTransportation.gtz.VICS_VeiwOrdersTest -->
     </classes>
   </test> <!-- VICS View Order(failed) -->
+  <test thread-count="1" name="LPS_Key Revenue Reports(failed)">
+    <classes>
+      <class name="GTZTransportation.gtz.KeyRevenue_ReportsTest">
+        <methods>
+          <include name="FreightPayment_Report_tests"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- GTZTransportation.gtz.KeyRevenue_ReportsTest -->
+    </classes>
+  </test> <!-- LPS_Key Revenue Reports(failed) -->
 </suite> <!-- Failed suite [GTZ_RegressionSuite] -->

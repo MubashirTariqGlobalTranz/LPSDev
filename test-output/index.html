@@ -56,7 +56,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-LPS_Key_Revenue" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,11 @@
                       <a href="#" panel-name="suite-LPS_Key_Revenue" class="show-methods passed suite-LPS_Key_Revenue"> (show)</a> <!-- show-methods passed suite-LPS_Key_Revenue -->
                     </span>
                     <div class="method-list-content passed suite-LPS_Key_Revenue">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LPS_Key_Revenue" title="GTZTransportation.gtz.KeyRevenue_CustomerTest" class="method navigator-link" hash-for-method="FreightPayment_Customer_tests">FreightPayment_Customer_tests</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-LPS_Key_Revenue" title="GTZTransportation.gtz.KeyRevenue_ReportsTest" class="method navigator-link" hash-for-method="FreightPayment_Report_tests">FreightPayment_Report_tests</a> <!-- method navigator-link -->
@@ -134,6 +139,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-LPS_Key_Revenue-class-passed -->
+          <div class="suite-LPS_Key_Revenue-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GTZTransportation.gtz.KeyRevenue_CustomerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreightPayment_Customer_tests">
+                  </a> <!-- FreightPayment_Customer_tests -->
+                  <span class="method-name">FreightPayment_Customer_tests</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LPS_Key_Revenue-class-passed -->
         </div> <!-- panel LPS_Key_Revenue -->
         <div panel-name="test-xml-LPS_Key_Revenue" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -149,6 +169,11 @@
       &lt;class name=&quot;GTZTransportation.gtz.KeyRevenue_ReportsTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- LPS_Key Revenue Reports --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;LPS_Key Revenue- Customer&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;GTZTransportation.gtz.KeyRevenue_CustomerTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LPS_Key Revenue- Customer --&gt;
 &lt;/suite&gt; &lt;!-- LPS_Key Revenue --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -162,6 +187,9 @@
               <li>
                 <span class="test-name">LPS_Key Revenue Reports (1 class)</span>
               </li>
+              <li>
+                <span class="test-name">LPS_Key Revenue- Customer (1 class)</span>
+              </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -173,6 +201,10 @@
             <div class="test-group">
               <span class="test-group-name">Regression</span>
               <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">FreightPayment_Customer_tests</span>
+                <br/>
+              </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">FreightPayment_Report_tests</span>
                 <br/>
@@ -194,16 +226,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'FreightPayment_Report_tests')
 data.setCell(0, 2, 'GTZTransportation.gtz.KeyRevenue_ReportsTest')
-data.setCell(0, 3, 160904);
+data.setCell(0, 3, 214959);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'FreightPayment_Customer_tests')
+data.setCell(1, 2, 'GTZTransportation.gtz.KeyRevenue_CustomerTest')
+data.setCell(1, 3, 20376);
 window.suiteTableData['LPS_Key_Revenue']= { tableData: data, tableDiv: 'times-div-LPS_Key_Revenue'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-LPS_Key_Revenue">
               </div> <!-- times-div-LPS_Key_Revenue -->
             </div> <!-- times-div -->
@@ -236,11 +272,26 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">FreightPayment_Report_tests</span>
-                <span class="method-start">5455 ms</span>
+                <span class="method-start">7952 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">166363 ms</span>
+                <span class="method-start">222911 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GTZTransportation.gtz.KeyRevenue_CustomerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">223310 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">FreightPayment_Customer_tests</span>
+                <span class="method-start">228345 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">248722 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

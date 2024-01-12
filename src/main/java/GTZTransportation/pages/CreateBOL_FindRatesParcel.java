@@ -149,7 +149,7 @@ public class CreateBOL_FindRatesParcel extends BaseClass {
 		LTLClick.click();
 		FindRatesButton.click();
 		try {
-			Thread.sleep(9000);
+			Thread.sleep(16000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
