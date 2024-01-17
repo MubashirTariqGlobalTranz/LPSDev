@@ -1,45 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-12T14:59:41 GMT+05:00" name="LPS_Key Revenue" finished-at="2024-01-12T15:03:50 GMT+05:00" duration-ms="249032">
+  <suite started-at="2024-01-17T15:19:21 GMT+05:00" name="Default suite" finished-at="2024-01-17T15:20:08 GMT+05:00" duration-ms="47241">
     <groups>
       <group name="Regression">
-        <method signature="KeyRevenue_ReportsTest.FreightPayment_Report_tests()[pri:1, instance:GTZTransportation.gtz.KeyRevenue_ReportsTest@76a4ebf2]" name="FreightPayment_Report_tests" class="GTZTransportation.gtz.KeyRevenue_ReportsTest"/>
-        <method signature="KeyRevenue_CustomerTest.FreightPayment_Customer_tests()[pri:1, instance:GTZTransportation.gtz.KeyRevenue_CustomerTest@5afa3c9]" name="FreightPayment_Customer_tests" class="GTZTransportation.gtz.KeyRevenue_CustomerTest"/>
+        <method signature="KeyRevenue_AdminTest.FreightPayment_Admin_tests()[pri:1, instance:GTZTransportation.gtz.KeyRevenue_AdminTest@6e6f2380]" name="FreightPayment_Admin_tests" class="GTZTransportation.gtz.KeyRevenue_AdminTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-01-12T14:59:41 GMT+05:00" name="LPS_Key Revenue Reports" finished-at="2024-01-12T15:03:24 GMT+05:00" duration-ms="223294">
-      <class name="GTZTransportation.gtz.KeyRevenue_ReportsTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:GTZTransportation.gtz.KeyRevenue_ReportsTest@76a4ebf2]" started-at="2024-01-12T14:59:41 GMT+05:00" name="setup" finished-at="2024-01-12T14:59:48 GMT+05:00" duration-ms="7934" status="PASS">
+    <test started-at="2024-01-17T15:19:21 GMT+05:00" name="Default test" finished-at="2024-01-17T15:20:08 GMT+05:00" duration-ms="47241">
+      <class name="GTZTransportation.gtz.KeyRevenue_AdminTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:GTZTransportation.gtz.KeyRevenue_AdminTest@6e6f2380]" started-at="2024-01-17T15:19:21 GMT+05:00" name="setup" finished-at="2024-01-17T15:19:29 GMT+05:00" duration-ms="7626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="FreightPayment_Report_tests()[pri:1, instance:GTZTransportation.gtz.KeyRevenue_ReportsTest@76a4ebf2]" started-at="2024-01-12T14:59:48 GMT+05:00" name="FreightPayment_Report_tests" finished-at="2024-01-12T15:03:23 GMT+05:00" duration-ms="214959" status="PASS">
+        <test-method signature="FreightPayment_Admin_tests()[pri:1, instance:GTZTransportation.gtz.KeyRevenue_AdminTest@6e6f2380]" started-at="2024-01-17T15:19:29 GMT+05:00" name="FreightPayment_Admin_tests" finished-at="2024-01-17T15:20:08 GMT+05:00" duration-ms="39562" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FreightPayment_Report_tests -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:GTZTransportation.gtz.KeyRevenue_ReportsTest@76a4ebf2]" started-at="2024-01-12T15:03:23 GMT+05:00" name="tearDown" finished-at="2024-01-12T15:03:24 GMT+05:00" duration-ms="379" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- GTZTransportation.gtz.KeyRevenue_ReportsTest -->
-    </test> <!-- LPS_Key Revenue Reports -->
-    <test started-at="2024-01-12T15:03:24 GMT+05:00" name="LPS_Key Revenue- Customer" finished-at="2024-01-12T15:03:50 GMT+05:00" duration-ms="25718">
-      <class name="GTZTransportation.gtz.KeyRevenue_CustomerTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:GTZTransportation.gtz.KeyRevenue_CustomerTest@5afa3c9]" started-at="2024-01-12T15:03:24 GMT+05:00" name="setup" finished-at="2024-01-12T15:03:29 GMT+05:00" duration-ms="5033" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="FreightPayment_Customer_tests()[pri:1, instance:GTZTransportation.gtz.KeyRevenue_CustomerTest@5afa3c9]" started-at="2024-01-12T15:03:29 GMT+05:00" name="FreightPayment_Customer_tests" finished-at="2024-01-12T15:03:49 GMT+05:00" duration-ms="20376" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FreightPayment_Customer_tests -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:GTZTransportation.gtz.KeyRevenue_CustomerTest@5afa3c9]" started-at="2024-01-12T15:03:49 GMT+05:00" name="tearDown" finished-at="2024-01-12T15:03:50 GMT+05:00" duration-ms="306" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- GTZTransportation.gtz.KeyRevenue_CustomerTest -->
-    </test> <!-- LPS_Key Revenue- Customer -->
-  </suite> <!-- LPS_Key Revenue -->
+        </test-method> <!-- FreightPayment_Admin_tests -->
+      </class> <!-- GTZTransportation.gtz.KeyRevenue_AdminTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

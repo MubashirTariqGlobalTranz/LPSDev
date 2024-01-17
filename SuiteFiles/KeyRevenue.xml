@@ -19,5 +19,13 @@
 
 		</classes>
 	</test>
+	
+	<test name="LPS_Key Revenue- Admin">
+		<classes>
+			<class
+				name="GTZTransportation.gtz.KeyRevenue_AdminTest" />
+
+		</classes>
+	</test>
 
 </suite>

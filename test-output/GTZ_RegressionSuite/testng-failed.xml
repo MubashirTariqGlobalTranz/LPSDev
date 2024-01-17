@@ -4,17 +4,6 @@
   <listeners>
     <listener class-name="utilities.Reporting"/>
   </listeners>
-  <test thread-count="1" name="QuickLoad(failed)">
-    <classes>
-      <class name="GTZTransportation.gtz.CreateQuickLoad_AwardTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="spotQuote_QuickLoad_Tests"/>
-        </methods>
-      </class> <!-- GTZTransportation.gtz.CreateQuickLoad_AwardTest -->
-    </classes>
-  </test> <!-- QuickLoad(failed) -->
   <test thread-count="1" name="VICS(failed)">
     <classes>
       <class name="GTZTransportation.gtz.VICS_VerifyCustomerTest">
@@ -48,6 +37,17 @@
       </class> <!-- GTZTransportation.gtz.VICS_VeiwOrdersTest -->
     </classes>
   </test> <!-- VICS View Order(failed) -->
+  <test thread-count="1" name="CustomerCarrier-Prospect Queue(failed)">
+    <classes>
+      <class name="GTZTransportation.gtz.LPSCustomer_Carrier_ProspectQueueTest">
+        <methods>
+          <include name="setup"/>
+          <include name="CustomerCarriers_CustomerList_tests"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- GTZTransportation.gtz.LPSCustomer_Carrier_ProspectQueueTest -->
+    </classes>
+  </test> <!-- CustomerCarrier-Prospect Queue(failed) -->
   <test thread-count="1" name="LPS_Key Revenue Reports(failed)">
     <classes>
       <class name="GTZTransportation.gtz.KeyRevenue_ReportsTest">
