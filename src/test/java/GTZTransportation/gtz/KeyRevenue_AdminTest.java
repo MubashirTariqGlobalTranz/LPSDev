@@ -24,7 +24,7 @@ public class KeyRevenue_AdminTest extends BaseClass {
 	}
 
 	@Test(priority = 1, groups = ("Regression"), retryAnalyzer = listeners.MyRetry.class)
-	public void FreightPayment_Admin_tests() {
+	public void KeyRevenue_Admin_tests() {
 //This will run all the methods
 
 		keyRevenue.keyRevenueGTZ();

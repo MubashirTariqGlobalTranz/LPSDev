@@ -5,7 +5,7 @@
     <classes>
       <class name="GTZTransportation.gtz.KeyRevenue_ReportsTest">
         <methods>
-          <include name="FreightPayment_Report_tests"/>
+          <include name="KeyRevenue_Report_tests"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>

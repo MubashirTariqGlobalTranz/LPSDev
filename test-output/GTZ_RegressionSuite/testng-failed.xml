@@ -37,17 +37,6 @@
       </class> <!-- GTZTransportation.gtz.VICS_VeiwOrdersTest -->
     </classes>
   </test> <!-- VICS View Order(failed) -->
-  <test thread-count="1" name="CustomerCarrier-Prospect Queue(failed)">
-    <classes>
-      <class name="GTZTransportation.gtz.LPSCustomer_Carrier_ProspectQueueTest">
-        <methods>
-          <include name="setup"/>
-          <include name="CustomerCarriers_CustomerList_tests"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- GTZTransportation.gtz.LPSCustomer_Carrier_ProspectQueueTest -->
-    </classes>
-  </test> <!-- CustomerCarrier-Prospect Queue(failed) -->
   <test thread-count="1" name="LPS_Key Revenue Reports(failed)">
     <classes>
       <class name="GTZTransportation.gtz.KeyRevenue_ReportsTest">
