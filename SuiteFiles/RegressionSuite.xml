@@ -335,4 +335,10 @@
 
 		</classes>
 	</test>
+	<test name="LPS General">
+		<classes>
+			<class name="GTZTransportation.gtz.LPS_GeneralTest" />
+
+		</classes>
+	</test>
 </suite>

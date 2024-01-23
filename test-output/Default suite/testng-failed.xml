@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="GTZTransportation.gtz.KeyRevenue_InvoicegeneralTest">
+      <class name="GTZTransportation.gtz.LPS_GeneralTest">
         <methods>
-          <include name="KeyRevenue_InvoiceGeneral_tests"/>
           <include name="setup"/>
+          <include name="LPS_General_Tests"/>
         </methods>
-      </class> <!-- GTZTransportation.gtz.KeyRevenue_InvoicegeneralTest -->
+      </class> <!-- GTZTransportation.gtz.LPS_GeneralTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
