@@ -11,7 +11,7 @@
 
 		</classes>
 	</test>
-	
+
 	<test name="LPS_Key Revenue- Customer">
 		<classes>
 			<class
@@ -19,7 +19,7 @@
 
 		</classes>
 	</test>
-	
+
 	<test name="LPS_Key Revenue- Admin">
 		<classes>
 			<class
@@ -27,11 +27,19 @@
 
 		</classes>
 	</test>
-	
+
 	<test name="LPS_Key Revenue- Invoice">
 		<classes>
 			<class
 				name="GTZTransportation.gtz.KeyRevenue_InvoiceTest" />
+
+		</classes>
+	</test>
+
+	<test name="LPS_Key Revenue- InvoiceGeneral">
+		<classes>
+			<class
+				name="GTZTransportation.gtz.KeyRevenue_InvoicegeneralTest" />
 
 		</classes>
 	</test>

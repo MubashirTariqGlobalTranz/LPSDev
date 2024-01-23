@@ -328,5 +328,11 @@
 
 		</classes>
 	</test>
+	<test name="LPS_Key Revenue- InvoiceGeneral">
+		<classes>
+			<class
+				name="GTZTransportation.gtz.KeyRevenue_InvoicegeneralTest" />
 
+		</classes>
+	</test>
 </suite>
