@@ -54,6 +54,24 @@ public class LPS_General extends BaseClass {
 	@FindBy(xpath = "//span[normalize-space()='Home']")
 	WebElement Home;
 
+	@FindBy(xpath = "//a[@id='ContentPlaceHolder1_ctl01_ctl04_grid_link_0']")
+	WebElement MissingCustomer;
+
+	@FindBy(xpath = "//a[@id='ContentPlaceHolder1_ctl01_ctl04_grid_link_1']")
+	WebElement MissingCarrier;
+
+	@FindBy(xpath = "//a[@id='ContentPlaceHolder1_ctl01_ctl04_grid_link_2']")
+	WebElement Audit;
+
+	@FindBy(xpath = "//a[@id='ContentPlaceHolder1_ctl01_ctl04_grid_link_3']")
+	WebElement Duplicate;
+
+	@FindBy(xpath = "//a[@id='ContentPlaceHolder1_ctl01_ctl04_grid_link_4']")
+	WebElement Verification;
+
+	@FindBy(xpath = "//div[@class='tool-container']//a[text()='GTZmanage']")
+	WebElement GTZManage;
+
 	// initialization
 	public LPS_General() {
 		PageFactory.initElements(driver, this);
@@ -164,5 +182,45 @@ public class LPS_General extends BaseClass {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		String actual = driver.findElement(By.xpath("//h1[@class='underline']")).getText();
+		String expected = "Resources";
+
+		Assert.assertEquals(actual, expected);
+
+		captureScreenShot(driver, "LPS Resources");
 	}
+
+	public void Queue_Summary_MissingCustomerInfo() {
+		Home.click();
+		// MissingCustomer.click();
+
+		String currentWindowHandle = driver.getWindowHandle();
+
+		// Click on an element that opens a new tab
+		driver.findElement(By.xpath("//a[@id='ContentPlaceHolder1_ctl01_ctl04_grid_link_0']")).click();
+
+		// Loop through all the available window handles
+		for (String windowHandle : driver.getWindowHandles()) {
+			// If it's not the current window handle, switch to it
+			if (!windowHandle.equals(currentWindowHandle)) {
+				driver.switchTo().window(windowHandle);
+				break;
+			}
+		}
+
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		String actual = driver.findElement(By.xpath("//h2[normalize-space()='Missing Customer Info']")).getText();
+		String expected = "Missing Customer Info";
+
+		Assert.assertEquals(actual, expected);
+
+		captureScreenShot(driver, "Verify Home Queue - Missing Customer Info");
+
+	}
+
 }

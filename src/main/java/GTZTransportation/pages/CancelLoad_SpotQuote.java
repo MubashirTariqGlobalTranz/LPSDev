@@ -331,7 +331,7 @@ public class CancelLoad_SpotQuote extends BaseClass {
 		captureScreenShot(driver, "Verify Cancelled Load");
 		driver.switchTo().defaultContent();
 		LoadBoard.click();
-		
+
 		FilterClick.click();
 		try {
 			Thread.sleep(2000);
@@ -340,10 +340,10 @@ public class CancelLoad_SpotQuote extends BaseClass {
 			e.printStackTrace();
 		}
 		// Open Load Board
-		
+
 		Exception.click();
 		FilterLoad.click();
-		//FilterClick.click();
+		// FilterClick.click();
 		Cancelled.click();
 		try {
 			Thread.sleep(2000);

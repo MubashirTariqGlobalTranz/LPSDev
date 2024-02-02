@@ -341,4 +341,25 @@
 
 		</classes>
 	</test>
+	<test name="FreightPayment-CarrierPortal_Others">
+		<classes>
+			<class
+				name="GTZTransportation.gtz.FreightPayment_CarrierPortalTest" />
+
+		</classes>
+	</test>
+	<test name="FreightPayment-GTZ_WebQueues">
+		<classes>
+			<class
+				name="GTZTransportation.gtz.FreightPayment_GTZTest" />
+
+		</classes>
+	</test>
+	<test name="FreightPayment-GTZ_Links">
+		<classes>
+			<class
+				name="GTZTransportation.gtz.FreightPayment_GTZ_Links_Test" />
+
+		</classes>
+	</test>
 </suite>

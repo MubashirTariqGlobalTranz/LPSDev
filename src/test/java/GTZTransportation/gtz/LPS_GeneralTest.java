@@ -1,7 +1,5 @@
 package GTZTransportation.gtz;
 
-import org.openqa.selenium.By;
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -34,13 +32,8 @@ public class LPS_GeneralTest extends BaseClass {
 		LPS.LPS_MyTeam();
 		LPS.LPS_DataEntry();
 		LPS.LPS_Resources();
-		// Assertion
-		String actual = driver.findElement(By.xpath("//h1[@class='underline']")).getText();
-		String expected = "Resources";
-
-		Assert.assertEquals(actual, expected);
-
-		captureScreenShot(driver, "LPS Resources");
+		//need to add on Prod LPS.Queue_Summary_MissingCustomerInfo();
+		
 	}
 
 	@AfterTest(groups = ("Regression"))

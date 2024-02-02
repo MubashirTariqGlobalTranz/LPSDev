@@ -35,6 +35,8 @@ public class BaseClass {
 		driver = new ChromeDriver();
 		driver.get("https://my-dev.shiplps.com/Default.aspx");
 		//driver.get("https://my-stage.shiplps.com/Default.aspx");
+		//driver.get("https://my.shiplps.com/Default.aspx");
+		
 		driver.manage().window().maximize();
 
 		/*driver.findElement(By.id("ContentPlaceHolder1_container_txtUserName")).sendKeys("jinal.shah@shiplps.com");
@@ -43,6 +45,8 @@ public class BaseClass {
 		driver.findElement(By.id("ContentPlaceHolder1_container_txtPassword")).sendKeys("RET\\d85VTK2T");
 		/*driver.findElement(By.id("ContentPlaceHolder1_container_txtUserName")).sendKeys("mubashir.tariq@shiplps.com");
 		driver.findElement(By.id("ContentPlaceHolder1_container_txtPassword")).sendKeys("Pakistan1234M");*/
+		/*driver.findElement(By.id("ContentPlaceHolder1_container_txtUserName")).sendKeys("mubashir.tariq@shiplps.com");
+		driver.findElement(By.id("ContentPlaceHolder1_container_txtPassword")).sendKeys("Pakistan12345M");*/
 		
 		driver.findElement(By.id("ContentPlaceHolder1_container_btnLogin")).click();
 
