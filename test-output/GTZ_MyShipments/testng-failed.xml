@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [GTZ_MyShipments]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="LPS_MyShipments(failed)">
+    <classes>
+      <class name="GTZTransportation.gtz.LPS_MyShipmentsTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="LPS_MyshipmentsTest"/>
+        </methods>
+      </class> <!-- GTZTransportation.gtz.LPS_MyShipmentsTest -->
+    </classes>
+  </test> <!-- LPS_MyShipments(failed) -->
+</suite> <!-- Failed suite [GTZ_MyShipments] -->

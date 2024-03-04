@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [GTZ_CustomerCarrier]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="CustomerCarrier-Prospect Queue(failed)">
+    <classes>
+      <class name="GTZTransportation.gtz.LPSCustomer_Carrier_ProspectQueueTest">
+        <methods>
+          <include name="setup"/>
+          <include name="CustomerCarriers_CustomerList_tests"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- GTZTransportation.gtz.LPSCustomer_Carrier_ProspectQueueTest -->
+    </classes>
+  </test> <!-- CustomerCarrier-Prospect Queue(failed) -->
+</suite> <!-- Failed suite [GTZ_CustomerCarrier] -->

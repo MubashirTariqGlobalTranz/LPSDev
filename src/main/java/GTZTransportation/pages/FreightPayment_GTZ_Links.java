@@ -113,7 +113,7 @@ public class FreightPayment_GTZ_Links extends BaseClass {
 	public void Users() {
 		GTZ.click();
 		Users.click();
-		UserID.sendKeys("mubashir.tariq@shiplps.com");
+		UserID.sendKeys("mubashir.tariq@globaltranz.com");
 		Filter.click();
 		Edit.click();
 		ResetEmail.click();
