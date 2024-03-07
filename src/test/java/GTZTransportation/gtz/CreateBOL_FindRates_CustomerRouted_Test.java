@@ -29,7 +29,7 @@ public class CreateBOL_FindRates_CustomerRouted_Test extends BaseClass {
 		Rates.openFindRates();
 		Rates.FindRates();
 		Rates.CreateBOL();
-		//After creating BOL, This assertion will work
+		//After creating BOL, This assertion will work everytime
 		String actual = driver.findElement(By.xpath("//small[normalize-space()='Bill of Lading']")).getText();
 		String expected = "Bill of Lading";
 		Assert.assertEquals(actual, expected);
