@@ -54,7 +54,7 @@ public class BaseClass {
 		 * sendKeys("7Q6DEK81GR3<");
 		 */
 		driver.findElement(By.id("ContentPlaceHolder1_container_txtUserName")).sendKeys("mubashir.tariq@shiplps.com");
-		driver.findElement(By.id("ContentPlaceHolder1_container_txtPassword")).sendKeys("RET\\d85VTK2T");
+		driver.findElement(By.id("ContentPlaceHolder1_container_txtPassword")).sendKeys("Pakistan12345M");
 		/*
 		 * driver.findElement(By.id("ContentPlaceHolder1_container_txtUserName")).
 		 * sendKeys("mubashir.tariq@shiplps.com");
