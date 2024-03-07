@@ -2,41 +2,41 @@
 <testng-results retried="3" ignored="0" total="4" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-28T23:01:38 GMT+05:00" name="Default suite" finished-at="2024-02-28T23:02:15 GMT+05:00" duration-ms="36808">
+  <suite started-at="2024-03-07T20:43:52 PKT" name="Default suite" finished-at="2024-03-07T20:44:17 PKT" duration-ms="25509">
     <groups>
       <group name="Regression">
-        <method signature="CreateMassLoad_AwardTest.spotQuote_MassLoad_Tests()[pri:1, instance:GTZTransportation.gtz.CreateMassLoad_AwardTest@70e9c95d]" name="spotQuote_MassLoad_Tests" class="GTZTransportation.gtz.CreateMassLoad_AwardTest"/>
+        <method signature="CreateBOL_FindRates_CustomerRouted_Test.FindRates_BOL_Creation_CustomerRouted_Tests()[pri:1, instance:GTZTransportation.gtz.CreateBOL_FindRates_CustomerRouted_Test@70e9c95d]" name="FindRates_BOL_Creation_CustomerRouted_Tests" class="GTZTransportation.gtz.CreateBOL_FindRates_CustomerRouted_Test"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-02-28T23:01:38 GMT+05:00" name="Default test" finished-at="2024-02-28T23:02:15 GMT+05:00" duration-ms="36808">
-      <class name="GTZTransportation.gtz.CreateMassLoad_AwardTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:GTZTransportation.gtz.CreateMassLoad_AwardTest@70e9c95d]" started-at="2024-02-28T23:01:38 GMT+05:00" name="setup" finished-at="2024-02-28T23:01:48 GMT+05:00" duration-ms="10159" status="PASS">
+    <test started-at="2024-03-07T20:43:52 PKT" name="Default test" finished-at="2024-03-07T20:44:17 PKT" duration-ms="25509">
+      <class name="GTZTransportation.gtz.CreateBOL_FindRates_CustomerRouted_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:GTZTransportation.gtz.CreateBOL_FindRates_CustomerRouted_Test@70e9c95d]" started-at="2024-03-07T20:43:52 PKT" name="setup" finished-at="2024-03-07T20:43:57 PKT" duration-ms="4884" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="spotQuote_MassLoad_Tests()[pri:1, instance:GTZTransportation.gtz.CreateMassLoad_AwardTest@70e9c95d]" started-at="2024-02-28T23:01:48 GMT+05:00" name="spotQuote_MassLoad_Tests" finished-at="2024-02-28T23:01:59 GMT+05:00" duration-ms="11175" status="SKIP">
+        <test-method retried="true" signature="FindRates_BOL_Creation_CustomerRouted_Tests()[pri:1, instance:GTZTransportation.gtz.CreateBOL_FindRates_CustomerRouted_Test@70e9c95d]" started-at="2024-03-07T20:43:57 PKT" name="FindRates_BOL_Creation_CustomerRouted_Tests" finished-at="2024-03-07T20:44:02 PKT" duration-ms="5126" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/form/div[3]/div[2]/div[1]/ul/li[1]/a/span"}
-  (Session info: chrome=122.0.6261.70)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Find freight rates']"}
+  (Session info: chrome=122.0.6261.111)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [640f8acfdb15ac177bdcc2e70d4ab0d5, findElement {using=xpath, value=/html/body/form/div[3]/div[2]/div[1]/ul/li[1]/a/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\LOCAL_~2.TAR\Temp\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55868/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 640f8acfdb15ac177bdcc2e70d4ab0d5]]>
+Command: [cc6cd5552a202df0f310100fe07ba992, findElement {using=xpath, value=//span[normalize-space()='Find freight rates']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.111, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\LOCAL_~3.TAR\Temp\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55088/devtoo..., se:cdpVersion: 122.0.6261.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc6cd5552a202df0f310100fe07ba992]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/form/div[3]/div[2]/div[1]/ul/li[1]/a/span"}
-  (Session info: chrome=122.0.6261.70)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Find freight rates']"}
+  (Session info: chrome=122.0.6261.111)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [640f8acfdb15ac177bdcc2e70d4ab0d5, findElement {using=xpath, value=/html/body/form/div[3]/div[2]/div[1]/ul/li[1]/a/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\LOCAL_~2.TAR\Temp\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55868/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 640f8acfdb15ac177bdcc2e70d4ab0d5
+Command: [cc6cd5552a202df0f310100fe07ba992, findElement {using=xpath, value=//span[normalize-space()='Find freight rates']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.111, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\LOCAL_~3.TAR\Temp\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55088/devtoo..., se:cdpVersion: 122.0.6261.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc6cd5552a202df0f310100fe07ba992
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -55,9 +55,9 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-at GTZTransportation.pages.CreateMassLoad_Award.Create_Load(CreateMassLoad_Award.java:68)
-at GTZTransportation.gtz.CreateMassLoad_AwardTest.spotQuote_MassLoad_Tests(CreateMassLoad_AwardTest.java:32)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at GTZTransportation.pages.CreateBOL_FindRates_CustomerRouted.openFindRates(CreateBOL_FindRates_CustomerRouted.java:113)
+at GTZTransportation.gtz.CreateBOL_FindRates_CustomerRouted_Test.FindRates_BOL_Creation_CustomerRouted_Tests(CreateBOL_FindRates_CustomerRouted_Test.java:29)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -91,30 +91,30 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- spotQuote_MassLoad_Tests -->
-        <test-method retried="true" signature="spotQuote_MassLoad_Tests()[pri:1, instance:GTZTransportation.gtz.CreateMassLoad_AwardTest@70e9c95d]" started-at="2024-02-28T23:01:59 GMT+05:00" name="spotQuote_MassLoad_Tests" finished-at="2024-02-28T23:02:04 GMT+05:00" duration-ms="5033" status="SKIP">
+        </test-method> <!-- FindRates_BOL_Creation_CustomerRouted_Tests -->
+        <test-method retried="true" signature="FindRates_BOL_Creation_CustomerRouted_Tests()[pri:1, instance:GTZTransportation.gtz.CreateBOL_FindRates_CustomerRouted_Test@70e9c95d]" started-at="2024-03-07T20:44:02 PKT" name="FindRates_BOL_Creation_CustomerRouted_Tests" finished-at="2024-03-07T20:44:07 PKT" duration-ms="5028" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Spot Quote system']"}
-  (Session info: chrome=122.0.6261.70)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Find freight rates']"}
+  (Session info: chrome=122.0.6261.111)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [640f8acfdb15ac177bdcc2e70d4ab0d5, findElement {using=xpath, value=//*[text()='Spot Quote system']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\LOCAL_~2.TAR\Temp\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55868/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 640f8acfdb15ac177bdcc2e70d4ab0d5]]>
+Command: [cc6cd5552a202df0f310100fe07ba992, findElement {using=xpath, value=//span[normalize-space()='Find freight rates']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.111, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\LOCAL_~3.TAR\Temp\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55088/devtoo..., se:cdpVersion: 122.0.6261.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc6cd5552a202df0f310100fe07ba992]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Spot Quote system']"}
-  (Session info: chrome=122.0.6261.70)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Find freight rates']"}
+  (Session info: chrome=122.0.6261.111)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [640f8acfdb15ac177bdcc2e70d4ab0d5, findElement {using=xpath, value=//*[text()='Spot Quote system']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\LOCAL_~2.TAR\Temp\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55868/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 640f8acfdb15ac177bdcc2e70d4ab0d5
+Command: [cc6cd5552a202df0f310100fe07ba992, findElement {using=xpath, value=//span[normalize-space()='Find freight rates']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.111, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\LOCAL_~3.TAR\Temp\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55088/devtoo..., se:cdpVersion: 122.0.6261.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc6cd5552a202df0f310100fe07ba992
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -133,9 +133,9 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-at GTZTransportation.pages.CreateMassLoad_Award.openSpotQuote(CreateMassLoad_Award.java:55)
-at GTZTransportation.gtz.CreateMassLoad_AwardTest.spotQuote_MassLoad_Tests(CreateMassLoad_AwardTest.java:31)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at GTZTransportation.pages.CreateBOL_FindRates_CustomerRouted.openFindRates(CreateBOL_FindRates_CustomerRouted.java:113)
+at GTZTransportation.gtz.CreateBOL_FindRates_CustomerRouted_Test.FindRates_BOL_Creation_CustomerRouted_Tests(CreateBOL_FindRates_CustomerRouted_Test.java:29)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -169,30 +169,30 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- spotQuote_MassLoad_Tests -->
-        <test-method retried="true" signature="spotQuote_MassLoad_Tests()[pri:1, instance:GTZTransportation.gtz.CreateMassLoad_AwardTest@70e9c95d]" started-at="2024-02-28T23:02:04 GMT+05:00" name="spotQuote_MassLoad_Tests" finished-at="2024-02-28T23:02:09 GMT+05:00" duration-ms="5024" status="SKIP">
+        </test-method> <!-- FindRates_BOL_Creation_CustomerRouted_Tests -->
+        <test-method retried="true" signature="FindRates_BOL_Creation_CustomerRouted_Tests()[pri:1, instance:GTZTransportation.gtz.CreateBOL_FindRates_CustomerRouted_Test@70e9c95d]" started-at="2024-03-07T20:44:07 PKT" name="FindRates_BOL_Creation_CustomerRouted_Tests" finished-at="2024-03-07T20:44:12 PKT" duration-ms="5033" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Spot Quote system']"}
-  (Session info: chrome=122.0.6261.70)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Find freight rates']"}
+  (Session info: chrome=122.0.6261.111)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [640f8acfdb15ac177bdcc2e70d4ab0d5, findElement {using=xpath, value=//*[text()='Spot Quote system']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\LOCAL_~2.TAR\Temp\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55868/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 640f8acfdb15ac177bdcc2e70d4ab0d5]]>
+Command: [cc6cd5552a202df0f310100fe07ba992, findElement {using=xpath, value=//span[normalize-space()='Find freight rates']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.111, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\LOCAL_~3.TAR\Temp\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55088/devtoo..., se:cdpVersion: 122.0.6261.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc6cd5552a202df0f310100fe07ba992]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Spot Quote system']"}
-  (Session info: chrome=122.0.6261.70)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Find freight rates']"}
+  (Session info: chrome=122.0.6261.111)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [640f8acfdb15ac177bdcc2e70d4ab0d5, findElement {using=xpath, value=//*[text()='Spot Quote system']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\LOCAL_~2.TAR\Temp\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55868/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 640f8acfdb15ac177bdcc2e70d4ab0d5
+Command: [cc6cd5552a202df0f310100fe07ba992, findElement {using=xpath, value=//span[normalize-space()='Find freight rates']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.111, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\LOCAL_~3.TAR\Temp\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55088/devtoo..., se:cdpVersion: 122.0.6261.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc6cd5552a202df0f310100fe07ba992
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -211,9 +211,9 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-at GTZTransportation.pages.CreateMassLoad_Award.openSpotQuote(CreateMassLoad_Award.java:55)
-at GTZTransportation.gtz.CreateMassLoad_AwardTest.spotQuote_MassLoad_Tests(CreateMassLoad_AwardTest.java:31)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at GTZTransportation.pages.CreateBOL_FindRates_CustomerRouted.openFindRates(CreateBOL_FindRates_CustomerRouted.java:113)
+at GTZTransportation.gtz.CreateBOL_FindRates_CustomerRouted_Test.FindRates_BOL_Creation_CustomerRouted_Tests(CreateBOL_FindRates_CustomerRouted_Test.java:29)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -247,30 +247,30 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- spotQuote_MassLoad_Tests -->
-        <test-method signature="spotQuote_MassLoad_Tests()[pri:1, instance:GTZTransportation.gtz.CreateMassLoad_AwardTest@70e9c95d]" started-at="2024-02-28T23:02:09 GMT+05:00" name="spotQuote_MassLoad_Tests" finished-at="2024-02-28T23:02:14 GMT+05:00" duration-ms="5012" status="FAIL">
+        </test-method> <!-- FindRates_BOL_Creation_CustomerRouted_Tests -->
+        <test-method signature="FindRates_BOL_Creation_CustomerRouted_Tests()[pri:1, instance:GTZTransportation.gtz.CreateBOL_FindRates_CustomerRouted_Test@70e9c95d]" started-at="2024-03-07T20:44:12 PKT" name="FindRates_BOL_Creation_CustomerRouted_Tests" finished-at="2024-03-07T20:44:17 PKT" duration-ms="5023" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Spot Quote system']"}
-  (Session info: chrome=122.0.6261.70)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Find freight rates']"}
+  (Session info: chrome=122.0.6261.111)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [640f8acfdb15ac177bdcc2e70d4ab0d5, findElement {using=xpath, value=//*[text()='Spot Quote system']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\LOCAL_~2.TAR\Temp\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55868/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 640f8acfdb15ac177bdcc2e70d4ab0d5]]>
+Command: [cc6cd5552a202df0f310100fe07ba992, findElement {using=xpath, value=//span[normalize-space()='Find freight rates']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.111, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\LOCAL_~3.TAR\Temp\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55088/devtoo..., se:cdpVersion: 122.0.6261.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc6cd5552a202df0f310100fe07ba992]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Spot Quote system']"}
-  (Session info: chrome=122.0.6261.70)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Find freight rates']"}
+  (Session info: chrome=122.0.6261.111)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [640f8acfdb15ac177bdcc2e70d4ab0d5, findElement {using=xpath, value=//*[text()='Spot Quote system']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\LOCAL_~2.TAR\Temp\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55868/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 640f8acfdb15ac177bdcc2e70d4ab0d5
+Command: [cc6cd5552a202df0f310100fe07ba992, findElement {using=xpath, value=//span[normalize-space()='Find freight rates']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.111, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\LOCAL_~3.TAR\Temp\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55088/devtoo..., se:cdpVersion: 122.0.6261.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc6cd5552a202df0f310100fe07ba992
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -289,9 +289,9 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-at GTZTransportation.pages.CreateMassLoad_Award.openSpotQuote(CreateMassLoad_Award.java:55)
-at GTZTransportation.gtz.CreateMassLoad_AwardTest.spotQuote_MassLoad_Tests(CreateMassLoad_AwardTest.java:31)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at GTZTransportation.pages.CreateBOL_FindRates_CustomerRouted.openFindRates(CreateBOL_FindRates_CustomerRouted.java:113)
+at GTZTransportation.gtz.CreateBOL_FindRates_CustomerRouted_Test.FindRates_BOL_Creation_CustomerRouted_Tests(CreateBOL_FindRates_CustomerRouted_Test.java:29)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -325,12 +325,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- spotQuote_MassLoad_Tests -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:GTZTransportation.gtz.CreateMassLoad_AwardTest@70e9c95d]" started-at="2024-02-28T23:02:14 GMT+05:00" name="tearDown" finished-at="2024-02-28T23:02:15 GMT+05:00" duration-ms="329" status="PASS">
+        </test-method> <!-- FindRates_BOL_Creation_CustomerRouted_Tests -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GTZTransportation.gtz.CreateBOL_FindRates_CustomerRouted_Test@70e9c95d]" started-at="2024-03-07T20:44:17 PKT" name="tearDown" finished-at="2024-03-07T20:44:17 PKT" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- GTZTransportation.gtz.CreateMassLoad_AwardTest -->
+      </class> <!-- GTZTransportation.gtz.CreateBOL_FindRates_CustomerRouted_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
